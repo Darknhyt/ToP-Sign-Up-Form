@@ -8,16 +8,16 @@ body {
   padding: 0;
   transition: background-color 0.5s, color 0.5s;
 }
-body header {
+body #section {
   width: 60svw;
-  background-image: url("imgs/banner.jpg");
+  background-image: url("/banner.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
 }
-body header div {
+body #section div {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0.8rem;
   color: white;
@@ -25,7 +25,7 @@ body header div {
   top: 20vh;
   text-align: center;
 }
-body header p {
+body #section p {
   color: rgba(255, 235, 205, 0.7);
   padding-left: 0.5rem;
 }
