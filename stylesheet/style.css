@@ -97,11 +97,11 @@ body aside {
   body {
     flex-direction: column;
   }
-  body header {
+  body #section {
     width: 100%;
     height: 28svh;
   }
-  body header div {
+  body #section div {
     top: 6svh;
   }
   body #content {
