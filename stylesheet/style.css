@@ -10,7 +10,7 @@ body {
 }
 body header {
   width: 60svw;
-  background-image: url("/imgs/banner.jpg");
+  background-image: url("imgs/banner.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
