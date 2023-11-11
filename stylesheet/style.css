@@ -10,7 +10,6 @@ body {
 }
 body #section {
   width: 60svw;
-  background-image: url("/banner.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
