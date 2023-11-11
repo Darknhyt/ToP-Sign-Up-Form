@@ -9,7 +9,7 @@ body {
     transition: background-color 0.5s, color 0.5s;
     header {
         width: max(60svw);
-        background-image: url("/imgs/banner.jpg");
+        background-image: url("imgs/banner.jpg");
         background-size: cover;
         display: flex;
         flex-direction: column;
