@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/stylesheet/style.css">
     <script src="script.js" defer></script>
 </head>
@@ -20,32 +21,32 @@
         <h2 id="main-info">Create your acount</h2>
         <form action="">
             <div class="input">
-                <label for="name">FIRST NAME *</label>
-                <input id="name" type="text" pattern="[a-zA-Z]+" minlength="2" maxlength="20" autofocus required>
+                <label for="name" title="Your Name">FIRST NAME *</label>
+                <input id="name" name="name" type="text" pattern="[a-zA-Z ]+" minlength="2" maxlength="20" placeholder="Name..." autofocus required>
             </div>
             <div class="input">
-                <label for="last-name">LAST NAME</label>
-                <input id="last-name" type="text" pattern="[a-zA-Z]+" minlength="2" maxlength="32">
+                <label for="last-name" title="Your Last Name (optional)">LAST NAME</label>
+                <input id="last-name" name="last-name" type="text" pattern="[a-zA-Z ]+" minlength="2" maxlength="32" placeholder="Last Name...">
             </div>
             <div class="input">
-                <label for="email">EMAIL *</label>
-                <input id="email" type="email" minlength="2" maxlength="34" required>
+                <label for="email" title="Your Email">EMAIL *</label>
+                <input id="email" name="email" type="email" minlength="4" maxlength="34" placeholder="example@email.com" required>
             </div>
             <div class="input">
-                <label for="phone">PHONE NUMBER</label>
-                <input id="phone" type="number" min="0" max="{20}">
+                <label for="phone" title="Your Phone (optional)">PHONE NUMBER</label>
+                <input id="phone" name="number" type="number" min="0" max="{20}" placeholder="(Optional)">
             </div>
             <div class="input">
-                <label for="psw1">PASSWORD *</label>
-                <input id="psw1" type="password" minlength="8" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+                <label for="psw1" title="Minimun 8 characters with at least one mayus and number">PASSWORD *</label>
+                <input id="psw1" name="password" type="password" minlength="8" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" placeholder="********" required>
             </div>
             <div class="input">
-                <label for="psw2">CONFIRM PASSWORD *</label>
-                <input id="psw2" type="password" minlength="8" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+                <label for="psw2" title="Minimun 8 characters with at least one mayus and number">CONFIRM PASSWORD *</label>
+                <input id="psw2" name="confirm" type="password" minlength="8" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" placeholder="********" required>
             </div>
         </form>
-        <button>CREATE</button>
-        <p>Already have an account? <a href="">Log in</a></p>
+        <button id="btn" type="button">CREATE</button>
+        <p>Already have an account? <a href="#">Log in</a></p>
     </div>
     <aside id="color" title="Turn on/off">⁜</aside>
 </body>
