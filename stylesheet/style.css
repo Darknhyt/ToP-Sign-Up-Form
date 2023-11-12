@@ -25,7 +25,7 @@ body #section div {
   text-align: center;
 }
 body #section p {
-  color: rgba(255, 235, 205, 0.7);
+  color: rgba(255, 235, 205, 0.5);
   padding-left: 0.5rem;
 }
 body #content {
@@ -41,7 +41,7 @@ body #content form {
   padding: 1.2rem 1rem;
   margin: 0;
   display: flex;
-  width: max(50svw, 460px, 96%);
+  width: max(50svw, 440px, 96%);
   flex-wrap: wrap;
   justify-content: start;
   gap: 1rem 3rem;
@@ -87,6 +87,7 @@ body #content button:hover {
 }
 body aside {
   position: fixed;
+  z-index: 1;
   top: 1rem;
   right: 1rem;
   font-size: 2rem;
